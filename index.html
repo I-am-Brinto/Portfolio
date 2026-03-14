@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brittic Roy - Computer Science Enthusiast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Brittic Roy Brinto</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <button id="theme-toggle" class="theme-toggle-btn" title="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-wrapper">
+            <div class="hero-content">
+                <h1 class="hero-greeting">Hey there! I'm <span class="gradient-text">Brittic Roy Brinto</span></h1>
+                <div class="typing-container">
+                    <p class="typing-text">
+                        <span id="typing-output"></span>
+                        <span class="typing-cursor"></span>
+                    </p>
+                </div>
+                <p class="hero-description">CSE Undergraduate | Problem Solver | Tech Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="neon-ring"></div>
+                <div class="profile-img-wrapper">
+                    <img src="image.jpeg" alt="Brittic Roy Brinto" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I am a Computer Science and Engineering (CSE) undergraduate at Rajshahi University of Engineering & Technology (RUET). I am passionate about solving complex problems and building practical technology solutions.
+                </p>
+                <p class="about-text">
+                    My interests span across software development, cybersecurity, and artificial intelligence. I work as a Flutter app developer and enjoy building modern mobile applications. I also program primarily in C++, where I focus on problem solving and algorithmic thinking.
+                </p>
+                <p class="about-text">
+                    Beyond development, I am deeply interested in cybersecurity. I actively explore ethical hacking concepts and participate in Capture The Flag (CTF) challenges to strengthen my practical security skills.
+                </p>
+                <p class="about-text">
+                    I completed my school education at Jashore Zilla School and later attended Notre Dame College for my higher secondary studies. These institutions helped shape my discipline, curiosity, and passion for technology.
+                </p>
+                <p class="about-text">
+                    Currently, I aim to expand my expertise in machine learning, secure software development, and advanced problem solving while contributing to impactful technological solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Flutter App Developer</h3>
+                    <p>Building beautiful and functional mobile applications</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>C++ Programmer</h3>
+                    <p>Problem solving and competitive programming</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity Enthusiast</h3>
+                    <p>Exploring secure software and defensive strategies</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3>CTF Player</h3>
+                    <p>Participating in Capture The Flag challenges</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>Ethical Hacking Learner</h3>
+                    <p>Learning ethical hacking and penetration testing</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning Enthusiast</h3>
+                    <p>Exploring AI and machine learning concepts</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Problem Solver</h3>
+                    <p>Tackling complex challenges with creative solutions</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Creative Thinker</h3>
+                    <p>Innovating and designing unique technological solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <a href="https://github.com/I-am-Brinto/ClientServerChatbox" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="Client Server Chatbox">
+                    </div>
+                    <div class="project-content">
+                        <h3>Client Server Chatbox</h3>
+                        <p>A client-server based chat application that demonstrates networking communication between users.</p>
+                        <span class="project-cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://github.com/I-am-Brinto/PackMan_-C-" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80" alt="Pacman Game">
+                    </div>
+                    <div class="project-content">
+                        <h3>Pacman Game (C Language)</h3>
+                        <p>A classic Pacman game implemented using the C programming language.</p>
+                        <span class="project-cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://github.com/I-am-Brinto/I_Like_Shooting-" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1549921296-3b0ba4e45e9d?auto=format&fit=crop&w=1200&q=80" alt="I Like Shooting Game">
+                    </div>
+                    <div class="project-content">
+                        <h3>I Like Shooting Game</h3>
+                        <p>A shooting-style game project developed with basic game mechanics and interaction.</p>
+                        <span class="project-cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://github.com/I-am-Brinto/Gamejam-Project" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1581091012184-44a4381d6dee?auto=format&fit=crop&w=1200&q=80" alt="GameJam Team Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>GameJam Team Project</h3>
+                        <p>A collaborative game project developed during a GameJam event with a team.</p>
+                        <span class="project-cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://github.com/I-am-Brinto/To-Do-App" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1523475496153-3d6cc467ef9a?auto=format&fit=crop&w=1200&q=80" alt="To-Do App">
+                    </div>
+                    <div class="project-content">
+                        <h3>To-Do App</h3>
+                        <p>A simple and practical task management application to organize daily activities.</p>
+                        <span class="project-cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://github.com/I-am-Brinto/CSE_2100" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="Disaster Management App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Disaster Management App</h3>
+                        <p>An application focused on disaster awareness and management solutions.</p>
+                        <span class="project-cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">📬 Contact Information</h2>
+            <p class="contact-intro">
+                I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and innovation. 
+                Feel free to reach out through any of the following channels - I'd love to connect!
+            </p>
+            <div class="contact-wrapper">
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:brtcroy2004@gmail.com">brtcroy2004@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <a href="tel:+8801875202221">+880 1875 202221</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Rajshahi, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-container">
+                <a href="https://github.com/I-am-Brinto" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/brittic-roy-brinto-978639291/" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://web.facebook.com/brintoooo" target="_blank" rel="noopener noreferrer" class="social-icon" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/itz_brinto" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2024 Brittic Roy Brinto. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
